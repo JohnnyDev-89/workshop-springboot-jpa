@@ -6,6 +6,8 @@ import com.JohnDev.course.entities.User;
 
 //Repositório responsável por fazer as operações com User.
 //Faz extends JpaRepository passando como parâmetro a entidade desejada e o tipo da chave da entidade
+
+//Opcional colocar a anotação Repository pois já herda de JpaRepository
 public interface UserRepository extends JpaRepository<User, Long>{
 
 }
